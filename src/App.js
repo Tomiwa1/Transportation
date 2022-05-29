@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar1 from './components/NavBar1';
+import Form1 from './components/Form1';
+import QuickBook from './components/QuickBook';
+import Advantages from './components/Advantages';
+import Experience from './components/Experience';
+import Phone from './components/Phone';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Router>
+        <Routes>
+          <Route path="/" element={} />
+          <Route path="/form" element={} />
+          <Route path="/" element={} />
+          <Route path="/" element={} />
+          <Route path="/" element={} />
+        </Routes>
+      </Router> */}
+      <NavBar1 />
+      <Form1 />
+      <QuickBook />
+      <Advantages />
+      <Experience />
+      <Phone />
     </div>
   );
 }

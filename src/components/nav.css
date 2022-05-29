@@ -1,0 +1,67 @@
+#bg {
+  background-image: url('./images/img1b.jpg');
+  box-shadow: inset 0 900px #0000003b;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#text {
+  margin-top: 120px;
+}
+@media screen and (min-width: 768px) {
+  #bg {
+    background-image: url('./images/img1.jpg');
+    box-shadow: inset 0 1000px #0000003b;
+
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #links {
+    display: none;
+  }
+  #ham {
+    display: none;
+  }
+  #text {
+    margin-top: 250px;
+  }
+  #abuja {
+    width: 500px;
+    height: 285px;
+  }
+  #port {
+    width: 500px;
+    height: 285px;
+  }
+  #owerri {
+    width: 500px;
+    height: 285px;
+  }
+  #calabar {
+    width: 500px;
+    height: 285px;
+  }
+  #lagos {
+    width: 500px;
+    height: 285px;
+  }
+  #enugu {
+    width: 500px;
+    height: 285px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #links1 {
+    display: none;
+  }
+}
