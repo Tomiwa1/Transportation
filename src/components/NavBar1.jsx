@@ -2,8 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import abc from './images/abclogo.png';
 // import lady from './images/lady.jpg';
-
 import './nav.css';
+import './navlink.css';
 
 // import logo from '../images/logo.jpeg.png';
 

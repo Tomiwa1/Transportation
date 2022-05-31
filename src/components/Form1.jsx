@@ -10,7 +10,7 @@ function Form1() {
         <h4 className="fw-bold text-primary"> CHOOSE YOUR DESTINATION</h4>
       </div>
       <div className="row p-5">
-        <div className="col-sm-6 ">
+        <div className="col-sm-6 mt-1">
           <label htmlFor="Origin">
             <h4 className="fw-light">Departure Terminal</h4>
           </label>
@@ -21,7 +21,7 @@ function Form1() {
             <option>Lagos</option>
           </select>
         </div>
-        <div className=" col-sm-6 mt-2">
+        <div className=" col-sm-6 mt-1">
           <label htmlFor="Origin">
             <h4 className="fw-light">Arrival Terminal</h4>
           </label>

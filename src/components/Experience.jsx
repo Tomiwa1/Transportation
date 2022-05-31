@@ -28,11 +28,11 @@ function Experience() {
             </div>
             <div className="d-flex col-6">
               <FaCheckCircle className="text-primary mt-1" />
-              <p className="fw-bold mx-3">Emergency Exit.</p>
+              <p className="fw-bold mx-3">Safety Conscious.</p>
             </div>
             <div className="d-flex col-6">
               <FaCheckCircle className="text-primary mt-1" />
-              <p className="fw-bold mx-3">Fire Extenguisher.</p>
+              <p className="fw-bold mx-3">Emergency Exit.</p>
             </div>
             <div className="d-flex col-6">
               <FaCheckCircle className="text-primary mt-1" />
@@ -40,7 +40,7 @@ function Experience() {
             </div>
             <div className="d-flex col-6">
               <FaCheckCircle className="text-primary mt-1" />
-              <p className="fw-bold mx-3">Safety conscious.</p>
+              <p className="fw-bold mx-3">Fire Extinguisher.</p>
             </div>
             <div className="col-12">
               <button className="btn btn-outline-primary btn-">
