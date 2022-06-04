@@ -11,10 +11,7 @@ import transit from './images/transit.jpg';
 function Phone() {
   return (
     <>
-      <div
-        className="container rounded-3  text-white bg-primary"
-        id="container"
-      >
+      <div className="container rounded-3  text-white bg-info" id="container">
         <h4 className="fw-bold">Download the ABC app for easy booking.</h4>
         <p className="fw-light" style={{ maxWidth: '400px' }}>
           Conveniently manage your bookings, tickets, plan all your trips and

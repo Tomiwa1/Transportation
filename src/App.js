@@ -8,6 +8,7 @@ import QuickBook from './components/QuickBook';
 import Advantages from './components/Advantages';
 import Experience from './components/Experience';
 import Phone from './components/Phone';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Advantages />
       <Experience />
       <Phone />
+      <Footer />
     </div>
   );
 }

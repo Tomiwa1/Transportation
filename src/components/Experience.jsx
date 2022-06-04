@@ -11,7 +11,7 @@ function Experience() {
         </div>
 
         <div className=" col-sm-6 p-5 order-1 order-sm-2">
-          <h2 className="text-primary">Comfortable Travel Experience</h2>
+          <h2 className="text-info">Comfortable Travel Experience</h2>
           <hr />
           <p className="fw-light">
             It is a long established fact that a reader will be distracted by
@@ -23,29 +23,27 @@ function Experience() {
           </p>
           <div className="row">
             <div className="d-flex col-6">
-              <FaCheckCircle className="text-primary mt-1" />
+              <FaCheckCircle className="text-info mt-1" />
               <p className="fw-bold mx-3">Charging Port.</p>
             </div>
             <div className="d-flex col-6">
-              <FaCheckCircle className="text-primary mt-1" />
+              <FaCheckCircle className="text-info mt-1" />
               <p className="fw-bold mx-3">Safety Conscious.</p>
             </div>
             <div className="d-flex col-6">
-              <FaCheckCircle className="text-primary mt-1" />
+              <FaCheckCircle className="text-info mt-1" />
               <p className="fw-bold mx-3">Emergency Exit.</p>
             </div>
             <div className="d-flex col-6">
-              <FaCheckCircle className="text-primary mt-1" />
+              <FaCheckCircle className="text-info mt-1" />
               <p className="fw-bold mx-3">More Leg Room.</p>
             </div>
             <div className="d-flex col-6">
-              <FaCheckCircle className="text-primary mt-1" />
+              <FaCheckCircle className="text-info mt-1" />
               <p className="fw-bold mx-3">Fire Extinguisher.</p>
             </div>
             <div className="col-12">
-              <button className="btn btn-outline-primary btn-">
-                LEARN MORE
-              </button>
+              <button className="btn btn-outline-info btn-">LEARN MORE</button>
             </div>
           </div>
         </div>

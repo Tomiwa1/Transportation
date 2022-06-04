@@ -7,7 +7,7 @@ function Form1() {
       style={{ marginTop: '-120px' }}
     >
       <div className="mt-3 text-center">
-        <h4 className="fw-bold text-primary"> CHOOSE YOUR DESTINATION</h4>
+        <h4 className="fw-bold text-info"> CHOOSE YOUR DESTINATION</h4>
       </div>
       <div className="row p-5">
         <div className="col-sm-6 mt-1">
@@ -61,7 +61,7 @@ function Form1() {
           </select>
         </div>
         <div className="d-grid mt-5">
-          <button className=" btn btn-outline-primary btn-lg">
+          <button className=" btn btn-outline-info btn-lg">
             <h4>Search</h4>
           </button>
         </div>

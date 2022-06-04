@@ -83,12 +83,12 @@ function NavBar1() {
             <a className="nav-link text-white">Hotel</a>
           </li>
           <li className="nav-item mx-2">
-            <button className="btn text-white btn-outline-primary text-primary">
+            <button className="btn text-white btn-outline-info text-primary">
               Log in
             </button>
           </li>
           <li className="nav-item mx-2">
-            <button className="btn  btn-primary text-white">Sign Up</button>
+            <button className="btn  btn-info text-white">Sign Up</button>
           </li>
         </ul>
         <button
@@ -120,7 +120,7 @@ function NavBar1() {
           comfort and safety.
         </p>
         {/* <Link to="/form"> */}
-        <button className="btn btn-primary btn-lg">Book Now</button>
+        <button className="btn btn-info btn-lg">Book Now</button>
         {/* </Link> */}
       </div>
     </div>

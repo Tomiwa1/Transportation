@@ -9,7 +9,7 @@ function QuickBook() {
   return (
     <>
       <div className=" p-5">
-        <h2 className="text-primary">Quick Bookings </h2>
+        <h2 className="text-info">Quick Bookings </h2>
         <hr />
       </div>
       <div className="row px-5">

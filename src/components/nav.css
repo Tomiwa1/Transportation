@@ -1,5 +1,7 @@
 #bg {
-  background-image: url('./images/img1b.jpg');
+  /* background-image: url('./images/img1b.jpg'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.537), transparent),
+    url('./images/img1.jpg');
   box-shadow: inset 0 900px #0000003b;
   background-size: cover;
   height: 100vh;
@@ -13,8 +15,10 @@
 /* FOR LAPTOP SCREEN */
 @media only screen and (min-width: 800px) {
   #bg {
-    background-image: url('./images/img1.jpg');
-    box-shadow: inset 0 1000px #0000003b;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.537), transparent),
+      url('./images/img1.jpg');
+    /* background-image: url('./images/img1.jpg'); */
+    /* box-shadow: inset 0 1000px #0000003b; */
 
     min-height: 100vh;
     background-size: cover;
@@ -65,7 +69,11 @@
     right: 0;
     margin-top: -400px;
   }
+  #line {
+    display: none;
+  }
 }
+/* cbwbwd */
 #app-store {
   max-width: 150px;
   margin-left: 25px;
@@ -150,6 +158,14 @@
     right: 0;
     margin-right: -80px;
     margin-top: -310px;
+  }
+  #quick {
+    display: flex;
+    align-items: center;
+    /* margin-left: -10px; */
+  }
+  #p {
+    margin-left: -25px;
   }
 }
 @media screen and (min-width: 390px) and (max-width: 420px) {
@@ -274,3 +290,9 @@
   margin-top: 130px;
   margin-left: 50px;
 } */
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  #line {
+    color: gray;
+  }
+}
