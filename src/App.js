@@ -9,26 +9,32 @@ import Advantages from './components/Advantages';
 import Experience from './components/Experience';
 import Phone from './components/Phone';
 import Footer from './components/Footer';
+import Login from './components/Login';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
     <div className="App">
-      {/* <Router>
+      <Router>
         <Routes>
-          <Route path="/" element={} />
-          <Route path="/form" element={} />
-          <Route path="/" element={} />
-          <Route path="/" element={} />
-          <Route path="/" element={} />
+          <Route
+            path="/"
+            element={
+              <div>
+                <NavBar1 />
+                <Form1 />
+                <QuickBook />
+                <Advantages />
+                <Experience />
+                <Phone />
+                <Footer />
+              </div>
+            }
+          />
+          <Route path="/login" element={<Login />} />
+          <Route path="/sign-up" element={<SignUp />} />
         </Routes>
-      </Router> */}
-      <NavBar1 />
-      <Form1 />
-      <QuickBook />
-      <Advantages />
-      <Experience />
-      <Phone />
-      <Footer />
+      </Router>
     </div>
   );
 }

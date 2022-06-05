@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import abc from './images/abclogo.png';
 // import lady from './images/lady.jpg';
 import './nav.css';
@@ -55,12 +56,16 @@ function NavBar1() {
               <a className="nav-link text-white">Hotel</a>
             </li>
             <li className="nav-item mx-2">
-              <button className="btn text-white  btn-outline-primary text-primary">
-                Log in
-              </button>
+              <Link to="/login">
+                <button className="btn text-white  btn-outline-primary text-primary">
+                  Log in
+                </button>
+              </Link>
             </li>
             <li className="nav-item mx-2">
-              <button className="btn  btn-primary text-white">Sign Up</button>
+              <Link to="/sign-up">
+                <button className="btn  btn-primary text-white">Sign Up</button>
+              </Link>
             </li>
           </ul>
         ) : null}
@@ -83,12 +88,16 @@ function NavBar1() {
             <a className="nav-link text-white">Hotel</a>
           </li>
           <li className="nav-item mx-2">
-            <button className="btn text-white btn-outline-info text-primary">
-              Log in
-            </button>
+            <Link to="/login">
+              <button className="btn text-white btn-outline-info text-primary">
+                Log in
+              </button>
+            </Link>
           </li>
           <li className="nav-item mx-2">
-            <button className="btn  btn-info text-white">Sign Up</button>
+            <Link to="/sign-up">
+              <button className="btn  btn-info text-white">Sign Up</button>
+            </Link>
           </li>
         </ul>
         <button
