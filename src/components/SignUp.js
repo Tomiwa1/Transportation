@@ -12,6 +12,8 @@ import { toast } from 'react-toastify';
 import { Link, useNavigate } from 'react-router-dom';
 import { FiMail } from 'react-icons/fi';
 import { BsKeyFill } from 'react-icons/bs';
+import { AiOutlineEyeInvisible } from 'react-icons/ai';
+
 import { BsPersonFill } from 'react-icons/bs';
 // import { BsPersonPlusFill } from 'react-icons/bs';
 
@@ -126,6 +128,10 @@ function SignUp() {
                     placeholder="Password"
                     className="form-control"
                     onChange={onChange}
+                  />
+                  <AiOutlineEyeInvisible
+                    onClick={() => setShowPassword((prevState) => !prevState)}
+                    id="eyes"
                   />
                 </div>
                 {/* </form> */}
