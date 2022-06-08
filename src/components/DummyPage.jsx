@@ -16,10 +16,10 @@ function DummyPage() {
   };
   return (
     <>
-      <div className="text-success text-uppercase p-5">
+      <div className="text-success text-uppercase p-2">
         {user ? <h1>{user.displayName}</h1> : 'Not Logged In'}
       </div>
-      <div className="container shadow-lg p-3 bg-white bg-body rounded mt-5">
+      <div className="container shadow-lg p-3 bg-white bg-body rounded mt-2">
         <div className="mt-3 text-center">
           <h4 className="fw-bold text-success"> CHOOSE YOUR DESTINATION</h4>
         </div>
