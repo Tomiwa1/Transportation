@@ -6,7 +6,7 @@ import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import { useState } from 'react';
 import { FiMail } from 'react-icons/fi';
 import { BsKeyFill } from 'react-icons/bs';
-import eyes from './images/prohibited-for-eyes.svg';
+// import eyes from './images/prohibited-for-eyes.svg';
 import { AiOutlineEyeInvisible } from 'react-icons/ai';
 
 function Login() {
